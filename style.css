@@ -1,0 +1,14 @@
+:root {
+    --primary: #25edfd;
+    --secondary: #ffbd0f;
+    --tertiary: #fc6b02;
+    --heading-size: 25px;
+    font-family: 'Belanosima', sans-serif;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+  }
