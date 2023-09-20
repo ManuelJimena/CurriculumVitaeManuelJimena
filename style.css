@@ -130,6 +130,7 @@
     color: #e7f9ff;
     justify-content: space-between;
     align-items: center;
+   
   }
   
   .resume .resume_left .resume_skills ul li .skill_name {
@@ -238,4 +239,16 @@
   
   .resume .resume_right .resume_hobby ul li:last-child:before {
     display: none;
+  }
+
+  .qr {
+    display: flex;
+    justify-content: center;
+    margin-top: 25%;
+  
+  }
+
+  .qr img{
+    height: 200px;
+    width: auto;
   }
