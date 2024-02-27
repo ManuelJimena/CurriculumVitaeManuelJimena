@@ -231,17 +231,17 @@ p {
 }
 
 
-
 .qr {
-  display: flex;
-  justify-content: center;
+  display: block;
+  text-align: center;
   margin: 5% 0%;
-
 }
 
-.qr img{
-  height: 200px;
+.qr img {
+  max-height: 160px;
   width: auto;
+  display: block;
+  margin: 0 auto;
 }
 
 .resume_item.resume_skills ul {
