@@ -230,19 +230,20 @@ p {
   background: var(--secondary);
 }
 
-
-.qr {
-  display: block;
-  text-align: center;
-  margin: 5% 0%;
-}
-
 .qr img {
   max-height: 160px;
   width: auto;
   display: block;
   margin: 0 auto;
+  margin-top: 5px;
 }
+
+.qr a { 
+  display: block;
+  margin-top: 5px;
+  text-align: center;
+}
+
 
 .resume_item.resume_skills ul {
   display: flex;
