@@ -15,7 +15,9 @@
 }
 
 body {
-  margin: 2% 22%;
+  display: flex;
+  justify-content: center;
+  margin: 2%;
   background: var(--quaternary);
   font-size: 16px;
   line-height: 22px;
