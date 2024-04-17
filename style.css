@@ -39,6 +39,14 @@ p {
   font-style: normal;
 }
 
+.Experience, .Education {
+  color: var(--primary);
+  font-weight: 500;
+  font-size: 28px;
+  font-style: normal;
+  margin-bottom: 40px;
+}
+
 .date {
   font-weight: 500;
   font-size: 28px;
@@ -193,7 +201,7 @@ p {
 }
 
 .resume_work {
-  margin: 17% 0%;
+  margin: 12% 0%;
 }
 
 .resume .resume_right ul li {
