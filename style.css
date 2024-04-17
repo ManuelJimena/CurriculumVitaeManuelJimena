@@ -59,8 +59,16 @@ p {
 
 .semi-bold {
   font-weight: bold;
-  font-size: 16px;
+  font-size: 14px;
   font-style: normal;
+}
+
+.moka {
+  font-weight: bold;
+  font-size: 14px;
+  font-style: normal;
+  color: white;
+  margin-top: 2px;
 }
 
 .resume {
@@ -83,7 +91,7 @@ p {
 }
 
 .resume .resume_left .resume_profile img {
-  margin-top: 12%;
+  margin-top: 10%;
   width: 85%;
   height: 85%;
 }
@@ -93,7 +101,7 @@ p {
 }
 
 .resume .title {
-  margin-bottom: 20px;
+  margin-bottom: 6px;
 }
 
 .resume .resume_left .bold {
@@ -118,7 +126,7 @@ p {
 
 .resume .resume_left ul li {
   display: flex;
-  margin-bottom: 10px;
+  margin-bottom: 1px;
   align-items: center;
 }
 
@@ -136,13 +144,12 @@ p {
   transform: translate(-50%, -50%);
 }
 .resume .resume_left ul li .data {
-  margin-top: 5%;
+  margin-top: 2%;
   color: #e7f9ff;
   font-size: 15px;
 }
 .resume .resume_left .resume_skills ul li {
   display: flex;
-  margin-bottom: 10px;
   color: #e7f9ff;
 
 }
@@ -166,7 +173,7 @@ p {
 
 .resume .resume_left .resume_social .semi-bold {
   color: #fff;
-  margin-bottom: 3px;
+  margin-bottom: 1px;
 }
 
 .resume .resume_right {
@@ -186,7 +193,7 @@ p {
 }
 
 .resume_work {
-  margin: 12% 0%;
+  margin: 17% 0%;
 }
 
 .resume .resume_right ul li {
