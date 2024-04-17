@@ -240,10 +240,10 @@ p {
 .resume .resume_right .resume_education ul li:after {
   content: "";
   position: absolute;
-  top: 14px;
+  top: 15px;
   left: -21px;
   width: 2px;
-  height: 200px;
+  height: 107%;
   background: var(--secondary);
 }
 
