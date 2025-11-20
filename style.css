@@ -42,7 +42,7 @@ p {
   font-style: normal;
 }
 
-.Experience, .Education {
+.Experience, .Education, .Certifications {
   color: var(--primary);
   font-weight: 500;
   font-size: 28px;
@@ -66,6 +66,7 @@ p {
   font-size: 40px;
   color: var(--primary);
   margin: 2% 0;
+  line-height: 1.1;
 }
 
 .semi-bold {
@@ -79,14 +80,13 @@ p {
   font-size: 14px;
   font-style: normal;
   color: white;
-  margin-top: 2px;
+  margin-top: 10px;
 }
 
 .resume {
   width: 800px;
   height: auto;
   display: flex;
-  
 }
 
 .resume .resume_left {
@@ -105,6 +105,8 @@ p {
   margin-top: 10%;
   width: 85%;
   height: 85%;
+  object-fit: cover;
+  border-radius: 50%;
 }
 
 .resume .resume_left .resume_content {
@@ -145,8 +147,6 @@ p {
   margin-bottom: 0;
 }
 
-
-
 .resume .icon i,
 .resume .resume_right .resume_hobby ul li i {
   position: absolute;
@@ -162,24 +162,10 @@ p {
 .resume .resume_left .resume_skills ul li {
   display: flex;
   color: #e7f9ff;
-
 }
 
 .resume .resume_left .resume_skills ul li .skill_name {
-  width: 25%;
-  
-}
-
-.resume .resume_left .resume_skills ul li .skill_per {
-  width: 15%;
-}
-
-.resume .resume_left .resume_skills ul li .skill_progress span {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  background: #fff;
+  width: 100%;
 }
 
 .resume .resume_left .resume_social .semi-bold {
@@ -204,21 +190,22 @@ p {
 }
 
 .resume_work {
-  margin: 12% 0%;
+  margin: 5% 0%;
 }
 
 .resume .resume_right ul li {
   position: relative;
+  margin-bottom: 20px;
 }
 
 .resume .resume_right ul li .date {
   font-size: 16px;
   font-weight: 500;
-  margin-bottom: 15px;
+  margin-bottom: 5px;
 }
 
 .resume .resume_right ul li .info {
-  margin-bottom: 20px;
+  margin-bottom: 5px;
 }
 
 .resume .resume_right ul li:last-child .info {
@@ -235,6 +222,8 @@ p {
   height: 6px;
   border-radius: 50%;
   border: 2px solid var(--tertiary);
+  background: #fff;
+  z-index: 2;
 }
 
 .resume .resume_right .resume_work ul li:after,
@@ -244,33 +233,22 @@ p {
   top: 15px;
   left: -21px;
   width: 2px;
-  height: 107%;
+  height: 100%;
   background: var(--secondary);
+  z-index: 1;
 }
 
-.qr img {
-  max-height: 160px;
-  width: auto;
-  display: block;
-  margin: 0 auto;
-  margin-top: 5px;
+.resume .resume_right ul li:last-child:after {
+    display: none;
 }
-
-.qr a { 
-  display: block;
-  margin-top: 5px;
-  text-align: center;
-}
-
 
 .resume_item.resume_skills ul {
   display: flex;
-  justify-content: space-between;
-  gap: 12.9px;
-  flex-wrap: wrap;
-  list-style-type: disc;
+  flex-direction: column;
+  gap: 5px;
+  list-style-type: none;
 }
 
-.resume_item.resume_skills ul li{
-  list-style-position: outside;
+.cert-item {
+    margin-bottom: 15px;
 }
